@@ -4,8 +4,8 @@ namespace Fly;
 
 class Application
 {
-    public function __construct()
+    public function run()
     {
-
+        echo "Hello World!!!!!!";
     }
 }
