@@ -1,0 +1,20 @@
+{
+    "name": "mariorez/fly",
+    "description": "Pure HHVM and Hack Framework",
+    "keywords": ["framework", "hhvm", "hack"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mario Rezende",
+            "email": "mariorez@gmail.com",
+            "homepage": "http://about.me/mariorez"
+        }
+    ],
+    "require": {
+        "hhvm": "3.6.*",
+        "facebook/xhp-lib": "1.6.*"
+    },
+    "autoload": {
+        "psr-4": { "Fly\\": "Fly/" }
+    }
+}
