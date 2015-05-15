@@ -1,1 +1,2 @@
-# Pure HHVM and Hack Framework #
+# Fly-Hack
+Micro-Framework for Hack and HHVM
