@@ -1,8 +1,6 @@
 {
-    "name": "mariorez/fly",
-    "description": "Pure HHVM and Hack Framework",
-    "keywords": ["framework", "hhvm", "hack"],
-    "type": "library",
+    "name": "Sinc",
+    "type": "project",
     "authors": [
         {
             "name": "Mario Rezende",
@@ -10,11 +8,17 @@
             "homepage": "http://about.me/mariorez"
         }
     ],
-    "require": {
-        "hhvm": "3.6.*",
-        "facebook/xhp-lib": "1.6.*"
-    },
     "autoload": {
-        "psr-4": { "Fly\\": "Fly/" }
+        "psr-4": {
+            "Sinc\\": "Model/",
+            "Application\\": "Application/",
+            "Fly\\": "framework/Fly"
+        }
+    },
+    "require": {
+        "semantic/ui": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.*"
     }
 }

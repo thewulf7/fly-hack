@@ -1,0 +1,17 @@
+web:
+  build: ./docker
+  volumes:
+    - .:/var/www/sinc
+  ports:
+    - 8082:80
+
+#hhvm:
+#  build: ./docker/hhvm
+#  volumes:
+#    - .:/var/www/sinc
+#nginx:
+#  build: ./docker/nginx
+#  volumes_from:
+#    - hhvm
+#  links:
+#    - hhvm:hhvm
